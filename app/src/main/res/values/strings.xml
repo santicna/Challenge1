@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PruebasClase</string>
+    <string name="register_text">Register</string>
+    <string name="email_hint">Email address</string>
+    <string name="password_hint">Create password</string>
+    <string name="next_button_text">next</string>
+</resources>
