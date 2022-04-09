@@ -9,12 +9,9 @@ import android.widget.Button
 import com.example.pruebasclase.R
 
 
-class FragmentOne : Fragment() {
-
+class FragmentThree : Fragment() {
     private lateinit var v : View
-    private lateinit var btnFragmentTwo: Button
-    private lateinit var btnFragmentThree: Button
-
+    private lateinit var btnFragmentOne: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -25,11 +22,9 @@ class FragmentOne : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        v = inflater.inflate(R.layout.fragment_one, container, false)
-        btnFragmentTwo = v.findViewById(R.id.btnFragment2)
-        btnFragmentThree = v.findViewById(R.id.btnFragment3)
+        v = inflater.inflate(R.layout.fragment_three, container, false)
+        btnFragmentOne = v.findViewById(R.id.btnFragment1)
 
         return v
     }
-
 }

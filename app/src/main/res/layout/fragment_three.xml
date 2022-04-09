@@ -2,10 +2,10 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/frameLayout"
+    android:id="@+id/frameLayout2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragments.FragmentOne">
+    tools:context=".fragments.FragmentThree">
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -24,26 +24,18 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-light"
-            android:text="@string/fragment_one"
+            android:text="@string/fragment_three"
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="34sp" />
 
         <Button
-            android:id="@+id/btnFragment2"
+            android:id="@+id/btnFragment1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:minHeight="64dp"
-            android:text="@string/fragment_two" />
-
-        <Button
-            android:id="@+id/btnFragment3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:minHeight="64dp"
-            android:text="@string/fragment_three" />
+            android:text="@string/fragment_one" />
 
     </LinearLayout>
 
