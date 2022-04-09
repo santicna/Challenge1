@@ -41,7 +41,7 @@
             android:hint="@string/email_hint"
             android:inputType="textEmailAddress"
             android:minHeight="48dp"
-            android:paddingLeft="10dp" />
+            android:paddingStart="10dp" />
 
         <EditText
             android:id="@+id/inpPassword"
@@ -53,7 +53,7 @@
             android:hint="@string/password_hint"
             android:inputType="textPassword"
             android:minHeight="48dp"
-            android:paddingLeft="10dp" />
+            android:paddingStart="10dp" />
 
         <Button
             android:id="@+id/btnNext"
@@ -70,6 +70,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.4"/>
+        app:layout_constraintGuide_percent="0.4" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
