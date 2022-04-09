@@ -7,4 +7,5 @@
     <string name="fragment_one">Fragment One</string>
     <string name="fragment_two">Fragment Two</string>
     <string name="fragment_three">Fragment Three</string>
+    <string name="exit_confirmation_toast">Press the back button again to exit.</string>
 </resources>
